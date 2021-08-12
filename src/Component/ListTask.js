@@ -11,7 +11,7 @@ import { Button } from 'react-bootstrap';
         <div>
             <Button variant="outline-primary" onClick={()=>setStatus("all")} >ALL</Button>
             <Button variant="outline-primary"  onClick={()=>setStatus("done")}>Done </Button>
-            <Button variant="outline-primary"  onClick={()=>setStatus("unDone")}>unDone</Button>
+            <Button variant="outline-primary"  onClick={()=>setStatus("undone")}>unDone</Button>
             {/*affichage selon la condition*/ }
          {
              status==="done"
